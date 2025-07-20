@@ -96,7 +96,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  to="/training/digital-marketing"
+                  to="/training/digital-marketing-training"
                   className="hover:text-[#00a34d] hover:scale-105 block font-medium"
                 >
                   Digital Marketing Training
@@ -248,7 +248,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  to="/training/digital-marketing"
+                  to="/training/digital-marketing-training"
                   className="hover:text-[#00a34d]"
                   onClick={() => setMenuOpen(!menuOpen)}
                 >
@@ -266,7 +266,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  to="/training/digital-marketing"
+                  to="/training/ui-ux-training"
                   className="hover:text-[#00a34d]"
                   onClick={() => setMenuOpen(!menuOpen)}
                 >

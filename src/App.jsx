@@ -55,7 +55,7 @@ const PageRoutes = () => {
         <Route path="/app-development" element={<AppDevelopment />} />
         <Route path="/digital-marketing" element={<DigitalMarketing />} />
         <Route path="/training/full-stack-website-development-training" element={<WebDevTraining />} />
-        <Route path="/training/digital-marketing" element={<DigitalMarketingTraining />} />
+        <Route path="/training/digital-marketing-training" element={<DigitalMarketingTraining />} />
         <Route path="/training/artificial-intelligence-training" element={<AiTraining />} />
         <Route path="/training/ui-ux-training" element={<UiUxTraining />} />
       </Routes>
