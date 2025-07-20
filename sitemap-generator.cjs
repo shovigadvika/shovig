@@ -4,14 +4,26 @@ const { createWriteStream } = require("fs");
 const links = [
   { url: "/", changefreq: "weekly", priority: 1.0 },
   { url: "/about", changefreq: "monthly", priority: 0.8 },
-  { url: "/web-dev", changefreq: "monthly", priority: 0.8 },
-  { url: "/app-dev", changefreq: "monthly", priority: 0.8 },
-  { url: "/ai", changefreq: "monthly", priority: 0.8 },
+  { url: "/website-development", changefreq: "monthly", priority: 0.8 },
+  { url: "/app-development", changefreq: "monthly", priority: 0.8 },
+  { url: "/artificial-intelligence", changefreq: "monthly", priority: 0.8 },
   { url: "/digital-marketing", changefreq: "monthly", priority: 0.8 },
-  { url: "/training/full-stack-web-dev", changefreq: "monthly", priority: 0.7 },
-  { url: "/training/digital-marketing", changefreq: "monthly", priority: 0.7 },
-  { url: "/training/ai", changefreq: "monthly", priority: 0.7 },
-  { url: "/training/ui-ux", changefreq: "monthly", priority: 0.7 },
+  {
+    url: "/training/full-stack-website-development-training",
+    changefreq: "monthly",
+    priority: 0.7,
+  },
+  {
+    url: "/training/digital-marketing-training",
+    changefreq: "monthly",
+    priority: 0.7,
+  },
+  {
+    url: "/training/artificial-intelligence-training",
+    changefreq: "monthly",
+    priority: 0.7,
+  },
+  { url: "/training/ui-ux-training", changefreq: "monthly", priority: 0.7 },
   { url: "/portfolio", changefreq: "monthly", priority: 0.6 },
   { url: "/contact", changefreq: "monthly", priority: 0.6 },
 ];
