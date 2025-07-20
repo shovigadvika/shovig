@@ -239,7 +239,7 @@ const Navbar = () => {
             >
               <li>
                 <Link
-                  to="/training/full-stack-website-development=training"
+                  to="/training/full-stack-website-development-training"
                   className="hover:text-[#00a34d]"
                   onClick={() => setMenuOpen(!menuOpen)}
                 >
