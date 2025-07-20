@@ -26,7 +26,7 @@ const steps = [
 const DevelopmentProcess = () => {
   return (
     <section className=" relative w-full bg-[#f8f9fa] py-16 px-4 md:px-10 lg:px-[64px] overflow-x-hidden">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-[1940px] m-auto mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
             Our <span className="text-[#00a34d]">Development Process</span>

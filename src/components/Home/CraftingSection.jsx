@@ -51,7 +51,7 @@ const cardData = [
 const CraftingSection = () => {
   return (
     <div className="w-full bg-white py-10">
-      <div className="w-full max-w-[1440px] mx-auto px-0 md:px-8 lg:px-24 xl:px-32 2xl:px-64">
+      <div className="w-full max-w-[1940px] mx-auto px-0 md:px-8 lg:px-24 xl:px-32 2xl:px-64">
         <div className="text-center mb-10 flex flex-col justify-center items-center min-h-[50vh]">
           <div className="text-center max-w-4xl mx-auto -my-[150px] md:-my-44 text-[#00a34d]">
             <TextReveal className="!text-[#00a34d]">

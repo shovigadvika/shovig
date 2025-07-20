@@ -4,7 +4,7 @@ import webImg from "../../assets/services/web1.jpg";
 const WebDevelopmentSection = () => {
   return (
     <section className="relative bg-white px-4 sm:px-10 md:px-16 lg:px-[64px] py-20 overflow-x-hidden">
-      <div className="max-w-[1440px] mx-auto flex flex-col md:flex-row items-center gap-12">
+      <div className="max-w-[1940px] mx-auto flex flex-col md:flex-row items-center gap-12">
         <div className="md:w-1/2" data-aos="fade-right">
           <div className="relative w-full">
             <div className="absolute -top-6 -left-6 w-full h-full bg-[#e6f5ed] rounded-3xl -z-10" />

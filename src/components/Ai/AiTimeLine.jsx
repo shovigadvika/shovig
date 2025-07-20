@@ -73,7 +73,7 @@ const AiTimeline = () => {
         Services
       </h2>
 
-      <div className="relative max-w-7xl mx-auto">
+      <div className="relative max-w-[1940px] m-auto mx-auto">
         <div className="hidden lg:block absolute top-0 left-1/2 transform -translate-x-1/2 h-full w-[3px] bg-gray-200" />
 
         {services.map((service, i) => {

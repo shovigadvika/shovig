@@ -49,7 +49,7 @@ const CardSection = () => {
   ];
 
   return (
-    <section className="relative px-4 sm:px-10 md:px-16 lg:px-[64px] py-20 bg-white">
+    <section className="relative max-w-[1940px] m-auto px-4 sm:px-10 md:px-16 lg:px-[64px] py-20 bg-white">
       <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12">
         Our Core Pillars
       </h2>

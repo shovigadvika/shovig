@@ -14,7 +14,7 @@ const DigitalMarketingHero = () => {
 
   return (
     <section
-      className="sticky top-0 h-screen w-full overflow-hidden flex items-center justify-center bg-cover bg-center text-neutral-800 overflow-x-hidden"
+      className="sticky top-0 h-screen w-full overflow-hidden flex items-center justify-center bg-cover bg-center text-neutral-800 overflow-x-hidden "
       style={{ backgroundImage: `url(${bgImage})`, opacity: 0.9 }}
     >
       <div

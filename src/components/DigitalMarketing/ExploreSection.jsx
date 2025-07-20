@@ -12,9 +12,9 @@ const tickPoints = [
 
 const ExploreSection = () => {
   return (
-    <section className="sticky lg:-top-20 bg-white max-w-[1440px] mx-auto py-16 px-4 md:px-10 lg:px-[64px] space-y-16 overflow-x-hidden">
+    <section className="sticky lg:-top-20 bg-white py-16 px-4 md:px-10 lg:px-[64px] space-y-16 overflow-x-hidden">
       {/* Top Row */}
-      <div className="flex flex-wrap items-center gap-8">
+      <div className="flex flex-wrap items-center gap-8 max-w-[1940px] mx-auto ">
         <img
           src={seo}
           alt="Explore"
@@ -43,7 +43,7 @@ const ExploreSection = () => {
       </div>
 
       {/* Bottom Row */}
-      <div className="flex flex-wrap gap-8 justify-between">
+      <div className="flex flex-wrap gap-8 justify-between max-w-[1940px] mx-auto ">
         {/* Left Column */}
         <div
           className="flex-1 min-w-[280px] space-y-4"

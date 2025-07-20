@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const HeroSection = () => {
   return (
     <section className="w-full py-16 bg-white overflow-hidden">
-      <div className="max-w-[1440px] px-5 md:px-8 lg:px-24 xl:px-32 2xl:px-64 mx-auto flex flex-col md:flex-row items-center gap-10 mt-10">
+      <div className="max-w-[1940px] px-5 md:px-8 lg:px-24 xl:px-32 2xl:px-64 mx-auto flex flex-col md:flex-row items-center gap-10 mt-10">
         <div className="flex-1 text-center md:text-left space-y-4">
           <BoxReveal duration={0.4}>
             <p className="text-sm md:text-base text-gray-500 tracking-wide uppercase">
@@ -18,9 +18,9 @@ const HeroSection = () => {
 
           <div className="space-y-2">
             <BoxReveal duration={0.5}>
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight text-[#1e1e1e]">
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight text-[#1e1e1e]">
                 From clicks to
-              </h1>
+              </h2>
             </BoxReveal>
             <BoxReveal duration={0.7}>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight text-[#1e1e1e]">
@@ -28,9 +28,9 @@ const HeroSection = () => {
               </h1>
             </BoxReveal>
             <BoxReveal duration={0.9}>
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight text-[#00a34d]">
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight text-[#00a34d]">
                 makes it happen.
-              </h1>
+              </h2>
             </BoxReveal>
           </div>
 

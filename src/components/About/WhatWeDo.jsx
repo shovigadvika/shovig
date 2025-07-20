@@ -3,7 +3,7 @@ import whatWeDoImg from "../../assets/Home/why-choose.jpg";
 
 const WhatWeDo = () => {
   return (
-    <section className="relative z-[10] bg-white px-4 sm:px-10 md:px-16 lg:px-[64px] py-10">
+    <section className="relative z-[10] max-w-[1940px] m-auto bg-white px-4 sm:px-10 md:px-16 lg:px-[64px] py-10">
       <div className="w-full flex flex-col lg:flex-row justify-center gap-6 px-4 py-10">
         <div
           className="flex-1 bg-[#e6f5ed] px-10 py-10 rounded-2xl shadow-md flex items-center justify-center text-[#00a34d] text-3xl lg:text-5xl italic font-extrabold tracking-wider animate-floatUp"
@@ -44,9 +44,9 @@ const WhatWeDo = () => {
           <p className="text-[#00a34d] font-semibold uppercase text-sm tracking-wide mb-2">
             About Shovig Business Solution
           </p>
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4">
+          <h1 className="text-3xl sm:text-4xl font-bold mb-4">
             Delivering Impact-Driven Tech Solutions
-          </h2>
+          </h1>
 
           <div className="space-y-4 text-base text-gray-700 leading-relaxed">
             <p>

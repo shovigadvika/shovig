@@ -50,7 +50,7 @@ const ProgramHighlights = () => {
     >
       <div className="absolute inset-0 bg-black/60 z-0" />
 
-      <div className="relative z-10 max-w-[1440px] mx-auto">
+      <div className="relative z-10 max-w-[1940px] mx-auto">
         <h2 className="text-3xl md:text-5xl font-bold text-white mb-10 sm:mb-12 text-center animate-fade-in-up">
           Program Highlights
         </h2>

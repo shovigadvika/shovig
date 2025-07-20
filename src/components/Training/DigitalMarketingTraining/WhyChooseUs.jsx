@@ -4,7 +4,7 @@ import sideImg from "../../../assets/Training/18.jpg";
 const WhyChooseUs = () => {
   return (
     <section className="sticky lg:top-0 bg-white py-24 px-5 md:px-8 lg:px-[64px]">
-      <div className="max-w-[1440px] mx-auto flex flex-col md:flex-row items-center gap-16">
+      <div className="max-w-[1940px] mx-auto flex flex-col md:flex-row items-center gap-16">
         <div className="w-full md:w-1/2">
           <img
             src={sideImg}

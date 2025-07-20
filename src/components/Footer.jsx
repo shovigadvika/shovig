@@ -17,7 +17,7 @@ const currentYear = new Date().getFullYear();
 
 const Footer = () => {
   return (
-    <footer className="relative md:h-screen bg-white text-gray-700 z-30 max-w-[1440px] md:mt-0 m-auto">
+    <footer className="relative md:h-screen bg-white text-gray-700 z-30 md:mt-0 m-auto">
       {/* Background Heading */}
       <div className="md:absolute top-0 left-0 w-full h-1/2 flex items-center justify-center ">
         <h1 className="text-[30vw] md:text-[30vw] lg:text-[30vw] 3xl:text-[10vw] font-bold italic text-[#00a34d]/10 text-center select-none pointer-events-none z-50">
@@ -27,7 +27,7 @@ const Footer = () => {
 
       {/* Main Footer Content */}
       <div className="md:absolute bottom-0 w-full px-4 md:px-8 lg:px-24 py-12 z-10 bg-white">
-        <div className="max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-5 gap-10">
+        <div className="max-w-[1940px] mx-auto grid grid-cols-1 md:grid-cols-5 gap-10">
           {/* About */}
           <div>
             <img src={logo} alt="Shovig Logo" className="w-32 mb-4" />
@@ -38,7 +38,7 @@ const Footer = () => {
             </p>
             <div className="flex gap-4">
               <a
-                href="https://www.facebook.com/share/161T5tkAsu/"
+                href="https://www.facebook.com/shovig.in/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#00a34d] text-lg"
@@ -46,7 +46,7 @@ const Footer = () => {
                 <FaFacebookF />
               </a>
               <a
-                href="https://www.instagram.com/shovig_?igsh=OTBjeGQwN3BpeGNv"
+                href="https://www.instagram.com/shovig_/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#00a34d] text-lg"
@@ -94,17 +94,17 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Services</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link to="/web-dev" className="hover:text-[#00a34d]">
+                <Link to="/website-development" className="hover:text-[#00a34d]">
                   Web Development
                 </Link>
               </li>
               <li>
-                <Link to="/app-dev" className="hover:text-[#00a34d]">
+                <Link to="/app-development" className="hover:text-[#00a34d]">
                   Mobile App Development
                 </Link>
               </li>
               <li>
-                <Link to="/ai" className="hover:text-[#00a34d]">
+                <Link to="/artificial-intelligence" className="hover:text-[#00a34d]">
                   Artificial Intelligence
                 </Link>
               </li>
@@ -122,7 +122,7 @@ const Footer = () => {
             <ul className="space-y-2 text-sm">
               <li>
                 <Link
-                  to="/training/full-stack-web-dev"
+                  to="/training/full-stack-website-development-training"
                   className="hover:text-[#00a34d]"
                 >
                   Full Stack Web Dev
@@ -137,7 +137,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/training/ai" className="hover:text-[#00a34d]">
+                <Link to="/training/artificial-intelligence-training" className="hover:text-[#00a34d]">
                   AI Development
                 </Link>
               </li>

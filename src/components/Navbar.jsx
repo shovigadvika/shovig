@@ -29,7 +29,7 @@ const Navbar = () => {
           : "bg-transparent py-8"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-6 md:px-10 xl:px-28 flex justify-between items-center">
+      <div className="max-w-[1940px] m-auto  mx-auto px-6 md:px-10 xl:px-28 flex justify-between items-center">
         <img src={logo} alt="Logo" className="w-28 md:w-52 h-auto" />
 
         <ul className="hidden lg:flex space-x-6 lg:space-x-10 items-center font-medium text-[#454545]">
@@ -48,7 +48,7 @@ const Navbar = () => {
             <ul className="absolute top-12 left-0 bg-white shadow-2xl rounded-2xl px-6 py-5 grid grid-cols-1 gap-5 opacity-0 group-hover:opacity-100 group-hover:visible invisible transition-all duration-300 z-50 min-w-[320px]">
               <li>
                 <Link
-                  to="/web-dev"
+                  to="/website-development"
                   className="hover:text-[#00a34d] hover:scale-105 block font-medium"
                 >
                   Web Development
@@ -56,7 +56,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  to="/app-dev"
+                  to="/app-development"
                   className="hover:text-[#00a34d] hover:scale-105 block font-medium"
                 >
                   Mobile App Development
@@ -64,7 +64,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  to="/ai"
+                  to="/artificial-intelligence"
                   className="hover:text-[#00a34d] hover:scale-105 block font-medium"
                 >
                   Artificial Intelligence
@@ -88,7 +88,7 @@ const Navbar = () => {
             <ul className="absolute top-12 left-0 bg-white shadow-2xl rounded-2xl px-6 py-5 grid grid-cols-1 gap-5 opacity-0 group-hover:opacity-100 group-hover:visible invisible transition-all duration-300 z-50 min-w-[320px]">
               <li>
                 <Link
-                  to="/training/full-stack-web-dev"
+                  to="/training/full-stack-website-development-training"
                   className="hover:text-[#00a34d] hover:scale-105 block font-medium"
                 >
                   Full Stack Web Development Training
@@ -104,7 +104,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  to="/training/ai"
+                  to="/training/artificial-intelligence-training"
                   className="hover:text-[#00a34d] hover:scale-105 block font-medium"
                 >
                   AI Development Training
@@ -112,7 +112,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  to="/training/ui-ux"
+                  to="/training/ui-ux-training"
                   className="hover:text-[#00a34d] hover:scale-105 block font-medium"
                 >
                   UI/UX & Graphic Design Training
@@ -184,7 +184,7 @@ const Navbar = () => {
             >
               <li>
                 <Link
-                  to="/web-dev"
+                  to="/website-development"
                   className="hover:text-[#00a34d]"
                   onClick={() => setMenuOpen(!menuOpen)}
                 >
@@ -193,7 +193,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  to="/app-dev"
+                  to="/app-development"
                   className="hover:text-[#00a34d]"
                   onClick={() => setMenuOpen(!menuOpen)}
                 >
@@ -202,7 +202,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  to="/ai"
+                  to="/artificial-intelligence"
                   className="hover:text-[#00a34d]"
                   onClick={() => setMenuOpen(!menuOpen)}
                 >
@@ -239,7 +239,7 @@ const Navbar = () => {
             >
               <li>
                 <Link
-                  to="/training/full-stack-web-dev"
+                  to="/training/full-stack-website-development=training"
                   className="hover:text-[#00a34d]"
                   onClick={() => setMenuOpen(!menuOpen)}
                 >
@@ -257,7 +257,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  to="/training/ai"
+                  to="/training/artificial-intelligence-training"
                   className="hover:text-[#00a34d]"
                   onClick={() => setMenuOpen(!menuOpen)}
                 >

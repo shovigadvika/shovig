@@ -4,9 +4,9 @@ import card from "../../assets/services/card.webp";
 
 const CardStack = () => {
   return (
-    <section className="w-full py-12 relative lg:sticky lg:top-10 z-10 px-4 sm:px-6 lg:px-[64px] overflow-x-hidden">
+    <section className="w-full max-w-[1940px] m-auto py-12 relative lg:sticky lg:top-10 z-10 px-4 sm:px-6 lg:px-[64px] overflow-x-hidden">
       <div className="bg-[#f4f4f4] rounded-2xl mx-auto px-4 sm:px-6 lg:px-10 py-10">
-        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-10 lg:gap-12 items-center">
+        <div className="max-w-[1940px] m-auto  mx-auto flex flex-col lg:flex-row gap-10 lg:gap-12 items-center">
           {/* Image */}
           <div className="w-full lg:w-1/2 h-[220px] sm:h-[300px] lg:h-[500px] flex items-center">
             <img

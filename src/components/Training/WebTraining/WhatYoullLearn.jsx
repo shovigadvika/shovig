@@ -31,7 +31,7 @@ const skills = [
 const WhatYoullLearn = () => {
   return (
     <section className="px-[0px] md:px-[32px] lg:px-[64px] relative py-24 bg-gray-100">
-      <div className="text-center max-w-[1440px] mx-auto" >
+      <div className="text-center max-w-[1940px] mx-auto" >
         <h2 className="text-3xl md:text-6xl font-bold text-gray-700 mb-6">
           What You'll Learn
         </h2>

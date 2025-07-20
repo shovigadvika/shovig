@@ -23,6 +23,7 @@ import UiUxTraining from "./pages/Training/UiUxTraining";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Loader from "./components/Loader";
+import SchemaMarkup from "./components/SchemaMarkup";
 
 // Page wrapper to detect route changes
 import { useNavigationType } from "react-router-dom";
@@ -41,6 +42,7 @@ const PageRoutes = () => {
 
   return (
     <>
+     <SchemaMarkup /> 
       {loading && <Loader />}
       <Routes>
         <Route path="*" element={<NotFound />} />
@@ -48,14 +50,14 @@ const PageRoutes = () => {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/ai" element={<ArtificialIntelligence />} />
-        <Route path="/web-dev" element={<WebDevelopment />} />
-        <Route path="/app-dev" element={<AppDevelopment />} />
+        <Route path="/artificial-intelligence" element={<ArtificialIntelligence />} />
+        <Route path="/website-development" element={<WebDevelopment />} />
+        <Route path="/app-development" element={<AppDevelopment />} />
         <Route path="/digital-marketing" element={<DigitalMarketing />} />
-        <Route path="/training/full-stack-web-dev" element={<WebDevTraining />} />
+        <Route path="/training/full-stack-website-development-training" element={<WebDevTraining />} />
         <Route path="/training/digital-marketing" element={<DigitalMarketingTraining />} />
-        <Route path="/training/ai" element={<AiTraining />} />
-        <Route path="/training/ui-ux" element={<UiUxTraining />} />
+        <Route path="/training/artificial-intelligence-training" element={<AiTraining />} />
+        <Route path="/training/ui-ux-training" element={<UiUxTraining />} />
       </Routes>
     </>
   );

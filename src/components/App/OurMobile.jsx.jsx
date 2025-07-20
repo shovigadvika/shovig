@@ -132,8 +132,8 @@ const OurMobile = () => {
   }, []);
 
   return (
-    <section className="w-full relative bg-white">
-      <div className="flex flex-col lg:flex-row w-full">
+    <section className="w-full relative bg-white ">
+      <div className="flex flex-col lg:flex-row w-full max-w-[1940px] m-auto">
         <div className="w-full lg:w-1/2 h-[300px] lg:h-screen sticky top-0 flex items-center justify-center bg-white  overflow-hidden">
           <div className="absolute w-[600px] h-[600px] bg-[#d7f5e7] animated-blob opacity-80 left-10 top-1/2 -translate-y-1/2 z-0" />
           <AnimatePresence mode="wait">

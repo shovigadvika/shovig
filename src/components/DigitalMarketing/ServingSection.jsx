@@ -4,7 +4,7 @@ import servingImg from "../../assets/services/service.jpg";
 const ServingSection = () => {
   return (
     <section className="w-full relative bg-white py-16 px-4 md:px-10 lg:px-[64px] overflow-x-hidden">
-      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12">
+      <div className="max-w-[1940px] m-auto  mx-auto flex flex-col lg:flex-row items-center gap-12">
         <div
           className="w-full lg:w-1/2"
           data-aos="fade-left"

@@ -1,6 +1,6 @@
 const ContactIFrameSection = () => {
   return (
-    <section className="sticky md:-top-48 lg:-top-32 py-10 px-5 md:mb-20 sm:px-8 md:px-16 xl:px-32 2xl:px-[64px] max-w-[1440px] mx-auto">
+    <section className="sticky md:-top-48 lg:-top-32 py-10 px-5 md:mb-20 sm:px-8 md:px-16 xl:px-32 2xl:px-[64px] max-w-[1940px] mx-auto">
       <div className="max-w-[1200px] mx-auto text-center">
         <h2 className="text-[24px] lg:text-[44px] text-[#2d2d2d] font-bold mb-5 leading-snug">
           Find us easily,<br />

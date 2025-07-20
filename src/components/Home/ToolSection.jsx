@@ -42,7 +42,7 @@ const tools = [
 const ToolSection = () => {
   return (
     <div className="w-full py-20 px-4">
-      <div className="max-w-[1440px] mx-auto text-center px-5 md:px-8 lg:px-24 xl:px-32 2xl:px-64">
+      <div className="max-w-[1940px] mx-auto text-center px-5 md:px-8 lg:px-24 xl:px-32 2xl:px-64">
         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#2d2d2d] mb-4">
           Seamless integration with <br /> all your essential tools
         </h2>

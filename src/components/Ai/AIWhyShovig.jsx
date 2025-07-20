@@ -42,12 +42,12 @@ const features = [
 
 const AiWhyShovig = () => {
   return (
-    <section className="relative w-full py-16 px-4 md:px-10 lg:px-[64px] bg-white text-gray-800 overflow-x-hidden">
+    <section className="relative w-full py-16 px-4 md:px-10 lg:px-[64px] bg-white text-gray-800 overflow-x-hidden ">
       <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center mb-12">
         Why Choose <span className="text-[#00a34d]">Shovig</span> for AI Software Development?
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto max-w-[1940px] m-auto">
         {features.map((item, i) => (
           <div
             key={i}

@@ -113,7 +113,7 @@ const ContactFormSection = () => {
   };
 
   return (
-    <section className="py-20 px-5 sm:px-8 md:px-16 xl:px-32 2xl:px-[64px] max-w-[1440px] mx-auto">
+    <section className="py-20 px-5 sm:px-8 md:px-16 xl:px-32 2xl:px-[64px] max-w-[1940px] mx-auto">
       <h2 className="text-[36px] text-[#6e6e6e] font-semibold mb-10">
         Contact us
       </h2>

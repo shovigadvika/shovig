@@ -2,7 +2,7 @@ import contactBg from "../../assets/contact.jpg";
 
 const ContactHeroSection = () => {
   return (
-    <section className="mt-28 px-5 sm:px-8 md:px-16 xl:px-32 2xl:px-[64px] max-w-[1440px] mx-auto" data-aos="fade-up">
+    <section className="mt-28 px-5 sm:px-8 md:px-16 xl:px-32 2xl:px-[64px] max-w-[1940px] mx-auto" data-aos="fade-up">
       <div
         className="relative h-[460px] rounded-2xl overflow-hidden bg-center bg-cover"
         style={{ backgroundImage: `url(${contactBg})` }}

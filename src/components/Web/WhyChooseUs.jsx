@@ -79,7 +79,7 @@ const WhyChooseUs = () => {
 
   return (
     <section className="relative bg-white w-full px-6 py-32">
-      <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center justify-between gap-16">
+      <div className="max-w-[1940px] m-auto  mx-auto flex flex-col-reverse md:flex-row items-center justify-between gap-16">
         <div className="relative w-full md:w-1/2 h-auto flex justify-center items-center">
           <div className="relative w-full max-w-[550px] h-[350px] sm:h-[320px]">
             <img

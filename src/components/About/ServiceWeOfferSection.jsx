@@ -56,7 +56,7 @@ const ServiceWeOfferSection = () => {
   }, [hasAnimated]);
 
   return (
-    <section className="relative px-4 sm:px-10 md:px-16 lg:px-[64px] py-10 bg-white">
+    <section className="relative px-4 max-w-[1940px] m-auto sm:px-10 md:px-16 lg:px-[64px] py-10 bg-white">
       <div className="flex flex-col lg:flex-row gap-16">
         {/* Left */}
         <div className="lg:w-1/2">

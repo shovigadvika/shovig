@@ -30,7 +30,7 @@ const stats = [
 
 const StatsSection = () => {
   return (
-    <section className="relative max-w-[1440px] mx-auto px-5 md:px-8 lg:px-24 xl:px-32 2xl:px-64 py-16 md:py-20">
+    <section className="relative max-w-[1940px] mx-auto px-5 md:px-8 lg:px-24 xl:px-32 2xl:px-64 py-16 md:py-20">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
         {stats.map((stat, idx) => (
           <div

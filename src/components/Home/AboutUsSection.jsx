@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const AboutUsSection = () => {
   return (
     <section className="w-full py-20 bg-white overflow-hidden">
-      <div className="max-w-[1440px] px-5 md:px-8 lg:px-24 xl:px-32 2xl:px-64 mx-auto flex flex-col md:flex-row items-center gap-12">
+      <div className="max-w-[1940px] px-5 md:px-8 lg:px-24 xl:px-32 2xl:px-64 mx-auto flex flex-col md:flex-row items-center gap-12">
         {/* Text Side */}
         <div className="flex-1 text-center md:text-left">
           <h3

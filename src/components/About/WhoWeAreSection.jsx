@@ -21,7 +21,7 @@ const cards = [
 
 const WhoWeAreSection = () => {
   return (
-    <section className="w-full relative bg-white py-16 px-5 md:px-8 lg:px-24 xl:px-32 2xl:px-64">
+    <section className="w-full relative max-w-[1940px] m-auto bg-white py-16 px-5 md:px-8 lg:px-24 xl:px-32 2xl:px-64">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {cards.map((card, index) => (
           <div

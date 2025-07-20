@@ -9,8 +9,8 @@ const stats = [
 
 const DigitalMarketingSection = () => {
   return (
-    <section className=" relative w-full py-16 px-4 md:px-10 lg:px-[64px] bg-white text-gray-800 overflow-x-hidden">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+    <section className=" relative w-full  py-16 px-4 md:px-10 lg:px-[64px] bg-white text-gray-800 overflow-x-hidden">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center max-w-[1940px] m-auto">
         <div
           className="flex justify-center"
           data-aos="fade-right"

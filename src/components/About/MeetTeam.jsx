@@ -3,7 +3,7 @@ import founderImg from "../../assets/Home/testi1.png";
 
 const FounderStorySection = () => {
   return (
-    <section className="sticky md:top-0 px-4 sm:px-10 md:px-16 lg:px-[64px] py-20 bg-white flex flex-col md:flex-row-reverse gap-12 items-center overflow-x-hidden">
+    <section className="sticky md:top-0 max-w-[1940px] m-auto px-4 sm:px-10 md:px-16 lg:px-[64px] py-20 bg-white flex flex-col md:flex-row-reverse gap-12 items-center overflow-x-hidden">
       <div
         className="w-full md:w-1/2 flex justify-center"
         data-aos="fade-right"

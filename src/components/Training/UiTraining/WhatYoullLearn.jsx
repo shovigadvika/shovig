@@ -63,7 +63,7 @@ const WhatYoullLearn = () => {
         </p>
       </div>
 
-      <div className="flex flex-col gap-10 max-w-6xl mx-auto">
+      <div className="flex flex-col gap-10 max-w-6xl mx-auto max-w-[1940px] mx-auto ">
         {learnItems.map((item, i) => (
           <div
             key={i}

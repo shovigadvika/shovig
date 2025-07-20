@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet-async'
 import AboutHeroSection from '../components/About/AboutHeroSection'
 import WhatWeDo from '../components/About/WhatWeDo'
 import OurStrategy from '../components/About/OurStratergy'
@@ -10,13 +11,17 @@ import WhoWeAreSection from '../components/About/WhoWeAreSection'
 const About = () => {
   return (
     <>
-    <AboutHeroSection/>
-    <WhatWeDo/>
-    <WhoWeAreSection/>
-    <OurStrategy/>
-    <ServiceWeOfferSection/>
-    <CoreValues/>
-    <MeetTeam/>
+      <Helmet>
+        <link rel="canonical" href="https://www.shovig.in/about" />
+      </Helmet>
+
+      <AboutHeroSection />
+      <WhatWeDo />
+      <WhoWeAreSection />
+      <OurStrategy />
+      <ServiceWeOfferSection />
+      <CoreValues />
+      <MeetTeam />
     </>
   )
 }

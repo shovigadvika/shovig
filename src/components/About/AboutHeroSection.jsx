@@ -14,7 +14,7 @@ const AboutHeroSection = () => {
   }, []);
 
   return (
-    <div className="sticky top-0 h-screen w-full overflow-hidden">
+    <div className="sticky top-0 h-screen w-full overflow-hidden max-w-[1940px] m-auto">
       <div
         className={`absolute top-0 left-0 w-full h-full bg-[#d5dfdac7] z-0 transition-transform duration-[1800ms] ease-in-out ${
           isRevealed ? "-translate-y-full" : "translate-y-0"

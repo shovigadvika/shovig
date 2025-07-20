@@ -46,7 +46,7 @@ const OurMobileExtras = () => {
         Whether it's a customer-facing app or an internal tool, we bring your business vision to life.
       </p>
 
-      <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-[1940px] m-auto">
         {industryData.map((card, index) => (
           <div
             key={index}

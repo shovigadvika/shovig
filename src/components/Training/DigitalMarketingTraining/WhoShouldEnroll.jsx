@@ -32,7 +32,7 @@ const enrollData = [
 const WhoShouldEnroll = () => {
   return (
     <section className="relative bg-white pb-20 px-5 md:px-8 lg:px-[64px]">
-      <div className="max-w-[1440px] mx-auto flex flex-col lg:flex-row items-start gap-16">
+      <div className="max-w-[1940px] mx-auto flex flex-col lg:flex-row items-start gap-16">
         <div className="w-full d-flex lg:w-1/2 my-auto space-y-6">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-700 leading-tight">
             Who Should Enroll

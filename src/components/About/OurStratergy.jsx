@@ -23,7 +23,7 @@ const visionCards = [
 
 const VisionMissionSection = () => {
   return (
-    <section className="px-4 sm:px-10 md:px-16 lg:px-[64px] py-20 bg-white relative z-[10] min-h-screen flex items-center">
+    <section className="px-4 sm:px-10 max-w-[1940px] m-auto md:px-16 lg:px-[64px] py-20 bg-white relative z-[10] min-h-screen flex items-center">
       <div className="flex flex-col lg:flex-row gap-16 items-start w-full">
         {/* Left Side */}
         <div className="lg:w-1/2 flex flex-col justify-center">

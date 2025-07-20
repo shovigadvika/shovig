@@ -54,7 +54,7 @@ const HighlightCard = ({ icon, title, desc }) => (
 const ProgramHighlights = () => {
   return (
     <section className="w-full relative bg-white py-16 px-4 md:px-10 lg:px-[64px] overflow-x-hidden">
-      <div className="max-w-7xl mx-auto space-y-20">
+      <div className="max-w-[1940px] m-auto  mx-auto space-y-20">
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="w-full md:w-2/3 space-y-6">
             <h6 className="text-sm font-medium text-gray-500 uppercase">

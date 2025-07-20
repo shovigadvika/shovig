@@ -3,7 +3,7 @@ import whyImg from "../../assets/services/why.jpg";
 const WhyShovigSection = () => {
   return (
     <section className=" sticky lg:top-0 w-full py-20 px-4 md:px-10 lg:px-[64px] bg-white text-gray-800 overflow-x-hidden">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-12">
+      <div className="max-w-[1940px] m-auto  mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-12">
         <div className="w-full" data-aos="fade-right">
           <img
             src={whyImg}

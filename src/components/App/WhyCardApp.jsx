@@ -40,7 +40,7 @@ const WhyCardApp = () => {
       <div className="absolute top-0 left-0 w-full h-96 bg-gradient-to-b from-black via-transparent to-transparent z-10 pointer-events-none" />
       <div className="absolute bottom-0 left-0 w-full h-96 bg-gradient-to-t from-black via-transparent to-transparent z-10 pointer-events-none" />
 
-      <div className="flex flex-col lg:flex-row w-full items-center relative z-20 gap-10">
+      <div className="flex flex-col lg:flex-row w-full items-center relative z-20 gap-10 max-w-[1940px] m-auto">
         <div className="w-full lg:w-[40%] text-white flex flex-col justify-center pr-0 lg:pr-12">
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
             Why Choose <br /> Shovig for Your App?

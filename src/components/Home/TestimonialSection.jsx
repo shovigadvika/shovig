@@ -55,7 +55,7 @@ const testimonialData = [
 const TestimonialSection = () => {
   return (
     <div
-      className="sticky md:-top-48 lg:-top-32 bg-cover bg-center py-16 px-4 sm:px-8 md:px-16 lg:px-24 max-w-[1440px] mx-auto"
+      className="sticky md:-top-48 lg:-top-32 bg-cover bg-center py-16 px-4 sm:px-8 md:px-16 lg:px-24 max-w-[1940px] mx-auto"
       style={{ backgroundImage: `url(${testBg})` }}
     >
       <div className="absolute inset-0 bg-gradient-to-b from-white/99 to-transparent z-0"></div>

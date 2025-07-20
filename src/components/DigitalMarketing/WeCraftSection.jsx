@@ -19,7 +19,7 @@ const features = [
 const WeCraftSection = () => {
   return (
     <section className="relative bg-[#f9f9f9] w-full py-16 px-4 md:px-10 lg:px-[64px] overflow-x-hidden">
-      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-between items-start gap-12">
+      <div className="max-w-[1940px] m-auto  mx-auto flex flex-col lg:flex-row justify-between items-start gap-12">
         <div
           className="w-full lg:w-[55%] space-y-6"
           data-aos="fade-left"
